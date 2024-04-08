@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wildlife srilanka</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <script src="newsletter.js"></script>
+    <link rel="shortcut icon" type="x-icon" href="img/logo.png">
+</head>
+<body>
+    <!---------------------------------------------------------------------------------------------------------------Navbar Start--------->
+     <nav class="navbar">
+        <h1 class="logo"></h1>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home<span></span></a></li>
+            <li><a href="introduction.html">Introduction<span></span></a></li>
+            <li> <a href="animals.html">Animals<span></span></a></li>
+            <li> <a href="slleportd.html">Leopard<span></span></a></li>
+            <li><a href="department.html">Department<span></span></a></li>
+            <li><a href="log.html" class="active1">Login<span></span></a></li>
+        </ul>
+        <img src="img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <!-----------------------------------------------------------------------------------------------------------------Navbar End--------->
+    
+    <!-----------------------------------------------------------------------------------------------------------------Header Start--------->
+            <header>
+                <div class="header-content">
+                    <h1 id="headerTitle"></h1><!--Dynamic data here-->
+                    <div class="line"></div>
+                    <h2 id="headerSubtitle"></h2><!--Dynamic data here-->
+                </div>
+                </div>
+    
+                
+            </header>
+     <!------------------------------------------------------------------------------------------------------------------Header End--------->
+
+    
+    <!--------------------------------------------------------------------------------------------------------------About Section Start------>
+            <section class="about" id="about">
+                <h1 class="heading"> <span>Exploring</span> wildlife </h1>
+                <div class="row">
+                    <div class="video-container"><!--Dynamic data here-->
+                        <video src="" loop autoplay muted></video>
+                    </div>
+
+                    <div class="content">
+                        <h3 id="dynamicTitle">Introduction</h3>
+                        <p id="dynamicContent"></p> <!--Dynamic data here-->
+                        <br><a href="introduction.html" class="ctn">Learn More</a>
+                    </div>
+                        
+                        
+                    
+                </div>
+            </section>
+    <!-----------------------------------------------------------------------------------------------------------------About Section End------>
+    </section>
+
+</div>
+    
+
+
+    <!-----------------------------------------------------------------------------------------------------------Js code start for navbar------>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+    
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    <!-----------------------------------------------------------------------------------------------------------Js code start for navbar------>
+    
+    <!----------------------------------------------------------------------------------------------------------------------Footer Start------->
+    <section id="footer">
+        <div class="footer-sec">
+            <i class="fa-solid fa-copyright"></i>
+            <div id="contentEditorPopup" style="display: none;">
+                <textarea id="editedContent"></textarea>
+                <button onclick="saveEditedContent()">Save</button>
+            </div>
+            <div class="hea">
+                <h3>Subscribe to our newsletter and get 15% off your next order</h3>
+            </div>
+            <div class="news">
+                <form class="newsletter" onsubmit="saveSubscription(event)">
+                    <input id="emailInput" type="email" class="form-control rounded border-0" placeholder="Your Email">
+                    <button class="btn btn-secondary flex-shrink-0" type="submit">Subscribe</button>
+                </form>
+            </div>
+            
+            <br><br>All rights reserved | &copy; 2024 Powered By <a href="#">Mihilayan Sachinthana</a>
+        </div>
+    </section>
+    
+    <!------------------------------------------------------------------------------------------------------------------------Footer End------>
+    
+</body>
+</html>

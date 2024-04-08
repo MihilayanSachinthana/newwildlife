@@ -1,0 +1,36 @@
+{
+    "title": "Introduction",
+    "content": "The Department of Wildlife Conservation has been entrusted with the responsibility of preserving eco system endowed with various plants and animal species which has inherited the country with enormous bio-diversity. The main function of the Department of Wildlife Conservation established in 1949 is the conservation of wildlife resources in Sri Lanka. Accordingly, the sources of water feeding all the main rivers in Sri Lanka and catchment areas of 40 major reservoirs providing water for agriculture and hydro-power generation are protected within this wildlife reservation network which exceed 13% of the total land area of the island. The responsibility of managing this wildlife reservation network is solely falling upon the Department of Wildlife Conservation. This network consists of reservations declared under various reservation levels.",
+    "heading": "The Department of Wildlife Conservation",
+    "sectionTitle": "Wildlife Protected Areas in Sri Lanka",
+    "protectedAreas": [
+      { "area": "Sinharaja Rainforest", "contact": "" },
+      { "area": "Yala National Park", "contact": "047-3489297" },
+      { "area": "Wilpaththuwa National Park", "contact": "025-3855691" },
+      { "area": "Galoya National Park", "contact": "063-2242002" },
+      { "area": "Udawalawa National Park", "contact": "047-3475892" },
+      { "area": "Maduruoya National Park", "contact": "027-3279207" },
+      { "area": "Wasgamuwa National Park", "contact": "066-3669046" },
+      { "area": "Horton Plains National Park", "contact": "052-3539042" },
+      { "area": "Minneriya National Park", "contact": "027-3279243" },
+      { "area": "Kawdulla National Park", "contact": "027-3279735" },
+      { "area": "Kumana National Park", "contact": "063-2051858" }
+    ],
+    "imageUrls": [
+      "img/i1.jpg",
+      "img/i2.jpg",
+      "img/i3.jpg",
+      "img/i4.jpg",
+      "img/i5.jpg",
+      "img/i6.jpg",
+      "img/i7.jpg",
+      "img/i8.jpg",
+      "img/i9.jpg",
+      "img/i10.jpg",
+      "img/i11.jpg",
+      "img/i12.jpg",
+      "img/i13.jpg",
+      "img/i6.jpg"
+    ]
+  }
+  
